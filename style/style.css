@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+/* .flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+body{
+    background-color: #d39c06;
+}
+header{
+    padding-top: 12px;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #a15004;
+    margin-: 100px;
+}
+
+.flex{
+    margin-left: 30px;
+    
+
+}
+header ul li{
+    padding-top: 10px;
+    padding: 16px 32px;
+    color: #e0a64e;
+    background-color: #756e03;
+    border-radius: 35%;
+    border: 2px solid #cec108;
+    transition: 2s;
+}
+header ul a:hover{
+    background-color: #6e3e07;
+    border: 2px solid #000000;
+    transition: 2s;
+}
+header h1{
+    width: 80px;
+    height: 80px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-indent: -9999999999px;
+    background-image: url(../img/body-builder\ \(1\).png);
+    margin-left: 1200px;
+    margin-top: 200px;
+    color: #e06907;
+    position: absolute;
+    
+}
+h1 a{
+    display: block;
+    width: 100%;
+    height: 80px;
+} */
+
+header{
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+.nav>li>a {
+    position: initial;
+    display: block;
+    padding: 15px 30px;
+}
+
+.navbar-inverse{
+    padding: 20px;
+    background-color: #192a3f;
+    border: none;
+}
+
+.navbar{
+    border-radius: unset;
+}
+
+.navbar-inverse .navbar-nav>.active>a{
+    background-color: #65924270;
+    border: 2px solid #00000000;
+    border-radius: 10px;
+    padding: 15px 30px;
+}
+
+.navbar-inverse .navbar-nav>.active>a:hover{
+    background-color: #659242;
+    
+    
+}
+
+
+
+.navbar-inverse .navbar-nav>li:hover {
+    background-color: #659242;
+    border-radius: 10px;
+    
+}
+
+
+.foto{
+    width: 100%;
+    height: 100vh;
+    margin-top: 60px;
+    background-image: url(../img/mtavari.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+
+}
+.conteinera{
+    width: 100%;
+    height: 230px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: flex-end;
+    justify-content: space-between;
+    background-color: #659242;
+}
+
+.conteinera p{
+    font-size: 20px;
+}
+.active{
+    background-color: #6e3e07;
+} 
+ 
+
+.fitnes{
+    background-image: url(../img/fitn.jpg);
+    width: 180px;
+    height: 180px;
+    border-radius: 50px;
+    margin: 100px 20px 50px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    transform: rotate(360deg);
+    transition: 1.5s;
+}
+.fitnes:hover{
+    background-image: url(../img/fitn1.jpg);
+    transition: 1.5s;
+    transform: rotate(0deg);
+}
+footer{
+    margin-top: 730px;
+    display: flex;
+    background-color: #a15004;
+}
+.foot{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.teleponi{
+    width: 50px;
+    font-size: 60px;
+    margin-left: 16px;
+    
+}
+.teno{
+    width: 30px;
+    font-size: 50px;
+    margin-top: 10px;
+}
+.telnom{
+    font-size: 30px;
+    margin-top: 30px;
+}
+ .foto2{
+    width: 80%;
+    height: 700px;
+    margin: 30px auto;
+   display: flex;
+   flex-wrap: wrap;
+   align-items: center;
+   justify-content: center;
+   position: absolute;
+ }
+ main{
+ padding-top: 40px;
+ }
+.trenerigega{
+width: 300px;
+height: 300px;
+display: flex;
+}
+
+.treneribibi{
+ width: 300px;
+ height: 300px;
+ display: flex;
+}
+
+.trenerinini{
+ width: 300px;
+ height: 300px;
+ display: flex;
+}
+.trenerimako{
+ width: 300px;
+ height: 300px;
+ display: flex;
+}
+.treneriramazi{
+ width: 300px;
+ height: 300px;
+ display: flex;
+}
+.registracia{
+    width: 700px;
+    margin: 50px auto;
+    position:relative;
+    margin-left: 50px;
+    margin-bottom: 60px;
+}
+.registracia input{
+    width: 100%;
+    padding: 12px;
+   margin-bottom: 26px;
+   display: flex;
+}
+.gender input{
+    width: 5%;
+    display: flex;
+}
+.registracia input[type="submit"]{
+    border: none;
+    background-color: rgb(134, 104, 5);
+}
+
+
+
+
+
+
+.conteinerr1{
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-color: #c7ac16;
+   background-image: url(../img/mtavari.png);
+    /* margin: 0px auto; */
+    color: #bebebe;
+}
+  
+
+  @media only screen and (max-width: 820px) {
+    header{
+        width: 100%;
+        height: 50px;
+        flex-wrap: wrap;
+    }
+    .conteinerr1{
+        width: 100%;
+        padding-top: 200px;
+    }
+    .reg1{
+        color: #ffffff;
+    }
+    footer{
+        width: 100%;
+               
+    }
+    .conteinerr1  a{
+     color: #f5f5f5;
+    }
+    footer .order{
+        padding-right: 20px;
+    }
+    footer .footerbox4{
+        margin-right: 10px;
+    }
+   
+  }
+    
+.registracia{
+    padding-top: 100px;
+}
+.reg1{
+    margin: 50px 0 0 500px;
+    
+}   
+.reg2 {
+    margin: 30px 0 0 50px;
+    font-size: 17px;
+    
+} 
+.damtavreba{
+    width: 350px;
+    height: 200x;
+    
+}
+.logo7700{
+    margin: 50px 0 0 1150px;
+}
+
+
+
+
+@media only screen and (max-width: 820px) {
+    header{
+        width: 100%;
+        height: 50px;
+        flex-wrap: wrap;
+    }
+    .conteiner200{
+        width: 100%;
+    }
+    
+    footer{
+        width: 100%;
+               
+    }
+    footer .order{
+        padding-right: 20px;
+    }
+    footer .footerbox4{
+        margin-right: 10px;
+    }
+   
+  }   
+
+.reg{
+    width: 500px;
+    margin: 130px auto;
+    
+}
+.reg input{
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 20px;
+    border-radius: 15px 25px;
+}
+.gender{
+    color: #220505;
+    font-size: 17px;
+    margin-left: 105px;
+    font-style: italic;
+}
+.gender input{
+    width: 5%;
+}
+.reg input[type= "submit"]{
+    background-color: #004cce;
+    color: #000000;
+    font-size: 17px;
+}
+
+
+
+
+  
+  
